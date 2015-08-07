@@ -43,7 +43,7 @@ function getHeartPoint(angle) {
 }
 
 function startHeartAnimation() {
-	var interval = 80;
+	var interval = 400;
 	var angle = 10;
 	var heart = new Array();
 	var animationTimer = setInterval(function () {
